@@ -1,5 +1,6 @@
 // The main wrapping element
-var SVG = this.SVG = function(element) {
+// XXX: Added (this || window) in the case "this" is undefined.
+var SVG = (this || window).SVG = function(element) {
   if (SVG.supported) {
     element = new SVG.Doc(element)
     
