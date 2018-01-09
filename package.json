@@ -1,5 +1,5 @@
 {
-  "name": "svg.js",
+  "name": "@logojoy/svg.js",
   "version": "2.6.3",
   "description": "A lightweight library for manipulating and animating SVG.",
   "url": "https://svgdotjs.github.io/",
